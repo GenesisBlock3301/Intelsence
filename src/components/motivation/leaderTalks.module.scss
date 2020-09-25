@@ -1,0 +1,168 @@
+.mainSection {
+  background-color: white;
+}
+
+.leaderTalk {
+  background-color: #0099dc;
+  padding: 50px 90px;
+}
+
+.slide {
+  background-color: #ccebf8;
+  border-radius: 50px;
+  height: 250px;
+}
+
+.image {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: -30px;
+  left: 100px;
+  right: 0px;
+}
+
+.message {
+  position: absolute;
+  top: -30px;
+  left: 250px;
+  right: 0px;
+}
+
+.man {
+  position: absolute;
+  top: -15px;
+  left: auto;
+  right: 45px;
+}
+
+.slide h2 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  color: #0099dc;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slide p {
+  text-transform: uppercase;
+  font-size: 15px;
+  max-width: 700px;
+  text-align: left;
+  margin-left: 40px;
+  color: #4d4d4d;
+}
+
+.slide h5 {
+  text-transform: uppercase;
+  max-width: 700px;
+  text-align: right;
+  margin-left: 40px;
+  color: #4d4d4d;
+}
+
+.demonstration {
+  margin-top: 60px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.demonstration > img {
+  width: 200px;
+  position: absolute;
+  left: 80px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.demonstration > h2 {
+  color: white;
+}
+
+.demonstration > p {
+  color: white;
+  font-family: "Montserrat-Light";
+}
+
+.demonstration > a {
+  color: white;
+  font-family: "Montserrat-Light";
+  padding: 5px 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.demonstration > a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1920px) {
+  .slide p {
+    font-size: 18px;
+    max-width: 1100px;
+    margin-left: 170px;
+  }
+
+  .slide h5 {
+    margin-left: 520px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .slide p {
+    font-size: 15px;
+    max-width: 900px;
+    margin-left: 170px;
+  }
+
+  .slide h5 {
+    margin-left: 360px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .slide p {
+    font-size: 15px;
+    max-width: 750px;
+    margin-left: 50px;
+  }
+
+  .slide h5 {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .man {
+    top: 55px;
+    right: 45px;
+    width: 30%;
+  }
+
+  .slide h2 {
+    padding-top: 40px;
+    font-size: 30px;
+  }
+
+  .slide p {
+    font-size: 15px;
+    max-width: 550px;
+  }
+
+  .slide h5 {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .demonstration > img {
+    width: 160px;
+    left: 20px;
+  }
+}

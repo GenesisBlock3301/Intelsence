@@ -1,0 +1,66 @@
+.container {
+  margin-top: 20px;
+}
+.mainContainer {
+  background-image: url('/images/Background2.png');
+  height: 100%;
+  width: 100%;
+  color: white;
+  align-items: center;
+  padding-top: 210px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.heading h1 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: right;
+}
+
+.heading h5 {
+  //margin-top: 225px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: -30px;
+  //text-align: left;
+  text-align: justify;
+
+}
+
+.mainContainer div {
+  padding-left: 103px;
+  width: 700px;
+
+}
+
+.buttom {
+  margin-left: 222px;
+  text-align: center;
+  padding-bottom: 220px;
+  margin-top: 38px;
+  //padding-top: 50px;
+
+}
+
+.buttom button {
+  border: 1px solid #E5ECFC;
+  border-radius: 20px;
+  margin-left: 38px;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  padding-left: 3px;
+  text-align: center;
+  height: 40px;
+  width: 196px;
+  font-weight: 600;
+}
+.contentBody p{
+  //text-indent: 50px;
+  text-align: right;
+  //letter-spacing: 3px;
+}
