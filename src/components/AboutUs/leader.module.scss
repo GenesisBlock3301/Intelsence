@@ -1,0 +1,67 @@
+.wrapper {
+  background-color: #0099dc;
+  padding-bottom: 78px;
+}
+
+.content {
+  margin-left: 265px;
+  background-color: #0099dc;
+  width: 67%;
+  color: white;
+  border-bottom: 2px solid white;
+}
+.content button {
+  margin-top: 9px;
+  width: 174px;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 7px;
+  background-color: #6cc5ed;
+}
+
+.heading p{
+  width: 86%;
+}
+.heading h2{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mainContent {
+  border-top: 2px solid white;
+  padding-top: 20px;
+  height: auto;
+  padding-bottom: 107px;
+  font-weight: 600;
+}
+
+.persons {
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.eachPerson {
+  text-align: center;
+  width: 282px;
+  background-color: #cceaf8;
+  margin-right: 26px;
+  color: #1e1f2e;
+
+}
+.eachPerson h6{
+  padding-top: 30px;
+}
+.eachPerson img {
+  width: 251px;
+  height: 163px;
+  background-color: #a4a48f;
+}
+
+.button{
+  width: 249px;
+  border: none;
+  background-color: #cceaf8;
+  color: #0099dc;
+}
+

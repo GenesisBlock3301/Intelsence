@@ -8,19 +8,21 @@ import OurSolution from "./components/OurSolution/OurSolution";
 import Research from "./components/research/research"
 import NewsApp from "./components/IntelsenceNews/News";
 import Motivation from "./components/motivation/motivation";
+import WorkAreaApp from "./components/aiAbout/WorkArea";
 
 function App() {
   return (
     <div>
      <Navbar />
-      <Cover />
-      <AISolutions />
-      <Technology />
-      <Cover2 />
-      <OurSolution />
-      <Research />
-      <NewsApp />
-      <Motivation />
+        <WorkAreaApp/>
+      {/*<Cover />*/}
+      {/*<AISolutions />*/}
+      {/*<Technology />*/}
+      {/*<Cover2 />*/}
+      {/*<OurSolution />*/}
+      {/*<Research />*/}
+      {/*<NewsApp />*/}
+      {/*<Motivation />*/}
     </div>
   );
 }

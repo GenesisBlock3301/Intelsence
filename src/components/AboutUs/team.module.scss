@@ -1,0 +1,93 @@
+
+.wrapper {
+  background-color: #0099dc;
+  padding-bottom: 78px;
+  margin-top: 25px;
+}
+
+.content {
+  margin-left: 265px;
+  background-color: #0099dc;
+  width: 67%;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.content button {
+  margin-top: 9px;
+  width: 174px;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 7px;
+  background-color: #0152d6;
+  text-transform: uppercase;
+
+}
+
+.heading p {
+  width: 86%;
+  font-weight: normal;
+}
+
+.heading h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mainContent {
+  border-top: 2px solid white;
+  padding-top: 20px;
+  height: auto;
+  padding-bottom: 107px;
+  font-weight: 600;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.eachTeam {
+  text-align: center;
+  //width: 253px;
+  width: 200px;
+  background-color: #0099dc;
+  margin-right: 26px;
+  color: #1e1f2e;
+
+}
+
+.eachTeam h6 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.eachTeam img {
+  width: 200px;
+  height: 137px;
+  background-color: #a4a48f;
+}
+
+.eachTeam p {
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+
+.button {
+  width: 117px;
+  //background-color: #cceaf8;
+  color: white;
+  margin-left: -85px;
+  background-color: #0152d6;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
