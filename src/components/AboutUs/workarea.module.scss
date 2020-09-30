@@ -1,6 +1,7 @@
 .wrapper{
   background-color:#1e1f2e;
   padding-bottom: 78px;
+  margin-top: 30px;
 }
 
 .content {
@@ -18,7 +19,8 @@
   color: white;
   border-radius: 20px;
   margin-bottom: 7px;
-  background-color: #6cc5ed;
+  background-color: #0179d4;
+  border: none;
 }
 
 .mainContent {
@@ -28,6 +30,12 @@
   padding-top: 20px;
   height: auto;
   padding-bottom: 25px;
+}
+.mainContent h6{
+  margin-top: 5px;
+  color: #3a5c74;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .leftPart {
